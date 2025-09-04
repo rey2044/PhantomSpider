@@ -13,7 +13,7 @@ Crafted for **penetration testers, bug bounty hunters, and digital forensics pro
 
 ---
 
-![image](https://github.com/user-attachments/assets/5ab03ea0-abc5-4e98-abfa-702a0716e091)
+![image]([https://github.com/user-attachments/assets/5ab03ea0-abc5-4e98-abfa-702a0716e091)](https://github.com/rey2044/PhantomSpider/blob/main/assets/page.png)
 
 ---
 
