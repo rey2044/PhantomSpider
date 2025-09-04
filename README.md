@@ -4,7 +4,7 @@
 
 # 🕷️ PhantomSpider v2.0.0 – Stealth BFS Web Crawler
 
-**PhantomSpider** is a **stealth-ready, high-performance Python web crawler** built on **Breadth-First Search (BFS)** for structured and systematic URL discovery.
+**PhantomSpider** is a **stealth-ready, high-performance Python web crawler** built on **Breadth-First Search (BFS)** for structured and systematic URL discovery.  
 Crafted for **penetration testers, bug bounty hunters, and digital forensics professionals**, it combines speed, scope control, and stealth features like **random user-agent rotation** to evade detection.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -13,7 +13,7 @@ Crafted for **penetration testers, bug bounty hunters, and digital forensics pro
 
 ---
 
-![image]([https://github.com/user-attachments/assets/5ab03ea0-abc5-4e98-abfa-702a0716e091)](https://github.com/rey2044/PhantomSpider/blob/main/assets/page.png)
+![image](https://github.com/rey2044/PhantomSpider/blob/main/assets/page.png)
 
 ---
 
@@ -37,17 +37,14 @@ Crafted for **penetration testers, bug bounty hunters, and digital forensics pro
 
 ```bash
 git clone https://github.com/rey2044/PhantomSpider.git
-```
-
-```bash
 cd PhantomSpider
-```
-
-```bash
 python3 -m venv venv
-source venv/bin/activate
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+# source venv/bin/activate
 pip install -r requirements.txt
-```
+````
 
 ---
 
@@ -110,7 +107,10 @@ python PhantomSpider.py -u https://example.com -s --dedup-params --rua
 requests
 beautifulsoup4
 rich
+playwright
 ```
+
+> ⚠️ After installing Playwright, run `python -m playwright install` to download browser binaries.
 
 ---
 
@@ -135,4 +135,5 @@ Cyber Security Researcher | Digital Forensics & VAPT Expert
 
 Feedback and contributions are welcome!
 👉 Open an [Issue](https://github.com/rey2044/PhantomSpider/issues) or submit a [Pull Request](https://github.com/rey2044/PhantomSpider/pulls).
+
 
